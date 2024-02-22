@@ -31,8 +31,10 @@ class Calculator{
     }
     // Ez a metódus kiírja az aktuális eredményt.
     function allapot(){
-        echo  $this->actual . "<br>";
+        print  $this->actual . "<br>";
     }
+
+   
 }
 
 $calculator = new Calculator;
@@ -51,3 +53,4 @@ print_r($calculator->szoroz(2));
 print($calculator->allapot());
 print_r($calculator->oszt(2));
 print($calculator->allapot());
+
